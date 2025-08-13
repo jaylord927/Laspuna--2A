@@ -24,7 +24,7 @@ public class AirFare {
         } else if (Class == 2) {
             fareperkm = 500;
         } else {
-            System.out.println("Invalid class choice.");
+            System.out.println("Invalid choice.");
             return;
         }
 
