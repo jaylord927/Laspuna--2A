@@ -6,6 +6,9 @@ public class AirFare {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        double fareperkm;
+        double ttlfare;
+                
         System.out.print("Welcome AirFare");
         System.out.println("\n1. Economy Class");
         System.out.println("2. Business Class\n");
@@ -15,10 +18,7 @@ public class AirFare {
 
         System.out.print("Enter Class: ");
         int Class = scan.nextInt();
-
-        double fareperkm;
-        double ttlfare;
-
+        
         if (Class == 1) {
             fareperkm = 250;
         } else if (Class == 2) {
